@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-menu content-id="main-content">
+      <ion-content>
+        <ion-list>
+          <ion-item routerLink="/home">Home</ion-item>
+          <ion-item routerLink="/banco_de_dados">Banco de dados</ion-item>
+          <ion-item routerLink="/perfil">Dados do usuário</ion-item>
+          <ion-item routerLink="/sobre">Sobre a equipe</ion-item>
+          <ion-item>Sair</ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+  
+  
+    <div id="main-content">
+      <ion-content>
+        <p>Bem-vindo ao sistema de controle de estoque do Pet Shop!</p>
+      </ion-content>
+    </div>
+  </ion-content>
+  
+</ion-content>
