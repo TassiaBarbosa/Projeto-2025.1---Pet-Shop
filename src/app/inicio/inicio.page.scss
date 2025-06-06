@@ -1,0 +1,23 @@
+ion-content {
+   /*colocar código do fundo do inicio aqui*/
+  }
+.intro-text{ /*editar as configurações do texto de inicio*/
+    font-family:'Exo 2', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 24px;
+    color: black;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+  }
+.blurred-button {   /*editar botão*/
+    font-family:'Exo 2', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 14px;
+    margin-top: 50px;
+  }
