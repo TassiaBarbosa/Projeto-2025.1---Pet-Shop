@@ -1,0 +1,35 @@
+ion-content { /*editar página de login*/
+    background-size: cover; 
+    background-position: center top, center; 
+    background-repeat: no-repeat, no-repeat; 
+}
+    
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 16px;
+}
+
+.transparent-button {
+    --background: transparent;  
+    --border-radius: 10px;      
+    --color: white;             
+    --box-shadow: none;
+    margin-top: 20px;       
+}
+
+.transparent-button:hover {
+    --background: rgba(255, 255, 255, 0.1);  
+}
+
+.login-form {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
