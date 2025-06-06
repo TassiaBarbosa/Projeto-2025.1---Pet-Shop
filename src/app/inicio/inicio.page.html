@@ -1,18 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Ínicio</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="container"> //colocar fundo
+  <div class="container"> 
+    <div class="intro-text">
+      <p>Sistema de controle de estoque pra um Pet Shop</p> 
+    </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Ínicio</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
- <ion-title>
-  Sistema de controle de estoque pra um per Shop
- </ion-title>
- <ion-button routerLink="/login">Ir</ion-button>
+    <ion-button fill="clear" size="large" class="button1 blurred-button" > //trocar botão
+      (click)="irParaLogin()">Ir
+    </ion-button>
+  </div>
 </ion-content>
