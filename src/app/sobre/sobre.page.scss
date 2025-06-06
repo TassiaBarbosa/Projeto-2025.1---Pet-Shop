@@ -1,0 +1,60 @@
+/* editar configurações de sobre
+.header-content { 
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+#logo {
+  height: 50px; 
+  margin: auto; 
+  margin-top: 10px;
+  display: block;
+}
+  
+ion-toolbar {
+  --background: #000000;
+  --color: white;
+  --min-height: 30px;
+  --padding-top: 5px;
+  --padding-bottom: 5px;
+}
+
+ion-content {
+  --background: linear-gradient(to bottom, #190055, #6a0dad);
+}
+  
+ion-card {
+  background-color: #f3f4f6;
+  min-height: 80px;
+  margin: 10px;
+  border-radius: 15px; 
+}
+
+ion-item {
+  color: rgb(0, 0, 0);
+  --ion-item-background: #f3f4f6;
+  border-radius: 10px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
+
+.transparent-button {
+  --background: transparent;  
+  --border-radius: 10px;      
+  --color: white;             
+  --box-shadow: none;         
+}
+
+.transparent-button:hover {
+  --background: rgba(255, 255, 255, 0.1);  
+}
+
+ion-card-header, ion-card-content {
+  width: 100%;
+  max-width: 300px; 
+  text-align: center;
+}
+*/
