@@ -1,31 +1,53 @@
-<ion-header [translucent]="true">
+<!--editar página-->
+<ion-header>
   <ion-toolbar>
-    <ion-title>Sobre Nós</ion-title>
+    <ion-buttons slot="start">
+      <ion-button style="opacity: 0; pointer-events: none;">
+        <ion-icon slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button routerLink="/home">Home</ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Sobre Nós</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <ion-button routerLink="/home">Home</ion-button>
-
+<ion-content>
   <ion-card>
-    <ion-card-header>Centro Universitário Augusto Motta</ion-card-header>
+    <ion-card-header>Sobre nós</ion-card-header>
     <ion-card-content>
-      Turma: ADS0501M<br>
+      <p>Centro Universitário Augusto Motta - Unisuam</p>
+      <p>Projeto 2025.1 - Sistema de Controle de Estoque para um Pet Shop</p>
+      <p>Curso: ADS - Presencial</p>
+      <p>Unidade: Bonsucesso</p>
+      <p>Turma: ADS0301M</p>
       Equipe:<br>
-      - Tássia Lima Lago Barbosa<br>
-      - Leandro César dos Santos<br>
-      - Guilherme Henrique Rabelo<br>
-      - Renan Fernandes Teixeira<br>
-      Contatos: (inserir e-mails aqui)<br>
-      <p>tassiabarbosasouunisuam.com.br</p>
-      <p>guilhermecustodiosouunisuam.com.br</p>
+      - Tássia Lima Lago Barbosa <br> 
+        Contato: tassiabarbosasouunisuam.com.br<br><br>
+      
+      - Leandro César dos Santos <br>
+        Contato: colocar email<br><br>
+      
+      - Guilherme Henrique Rabelo <br>
+        Contato: guilhermecustodiosouunisuam.com.br<br><br>
+      
+      - Renan Fernandes Teixeira <br>
+        Contato: colocar email<br>
     </ion-card-content>
   </ion-card>
+  
+</ion-content>
+
+ 
+
+
+
+  
+     
 
 </ion-content>
+
